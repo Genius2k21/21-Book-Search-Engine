@@ -21,7 +21,8 @@ Usage of Google Books API to create an Graql API with Apollo Server. MERN stack 
 
 # Snapshot
 
-[![Book Search](images/BookSearchDemo.png)]
+
+https://github.com/Genius2k21/21-Book-Search-Engine/blob/main/images/Google%20Book%20Search%20(2).webm
 
 
 
