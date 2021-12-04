@@ -4,26 +4,22 @@
   "description": "",
   "main": "server/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd server && npm start",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "cd server && npm start",
     "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
-    "seed": "cd server && npm run seed",
     "heroku-postbuild": "cd client && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:izabelacloud/Book-Search-Engine.git"
+    "url": "git@work.github.com:arosenkranz/googlebooks-app.git"
   },
   "keywords": [],
-  "author": "Joseph Blake",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Genius2k21/21-Book-Search-Engine"
-  },
-  "homepage": "https://github.com/Genius2k21/21-Book-Search-Engine/blob/main/README.md",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "apollo-server-express": "^2.19.2",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
