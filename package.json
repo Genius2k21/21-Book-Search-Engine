@@ -17,12 +17,12 @@
     "url": "git@work.github.com:izabelacloud/Book-Search-Engine.git"
   },
   "keywords": [],
-  "author": "Izabela Petrovicova",
+  "author": "Joseph Blake",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/izabelacloud/Book-Search-Engine/issues"
+    "url": "https://github.com/Genius2k21/21-Book-Search-Engine"
   },
-  "homepage": "https://github.com/izabelacloud/Book-Search-Engine#readme",
+  "homepage": "https://github.com/Genius2k21/21-Book-Search-Engine/blob/main/README.md",
   "dependencies": {
     "if-env": "^1.0.4"
   },
